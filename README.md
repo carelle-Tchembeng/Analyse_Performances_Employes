@@ -119,7 +119,7 @@ L'analyse génère pour chaque variable clé (score de performance, heures trava
 | dplyr | Manipulation et transformation des données |
 | ggplot2 | Visualisation des distributions |
 | readr | Import du fichier CSV |
-| RStudio | Environnement de développement |
+| Visual studio code | Environnement de développement |
 
 ---
 
