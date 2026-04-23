@@ -110,25 +110,6 @@ L'analyse génère pour chaque variable clé (score de performance, heures trava
 - Des **visualisations exportables** (histogrammes, boxplots, pie charts, barplots)
 - Un **rapport Word** consolidant toutes les conclusions (`rapport_performances_R.docx`)
 
----
-
-## Exemple de résultat — Détection d'outliers
-
-```r
-# Calcul des bornes IQR
-Q1  <- quantile(data$score_performance, 0.25)
-Q3  <- quantile(data$score_performance, 0.75)
-IQR <- Q3 - Q1
-
-borne_inf <- Q1 - 1.5 * IQR
-borne_sup <- Q3 + 1.5 * IQR
-
-# Identification des outliers
-outliers <- data %>%
-  filter(score_performance < borne_inf | score_performance > borne_sup)
-```
-
----
 
 ## Technologies utilisées
 
