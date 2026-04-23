@@ -1,0 +1,54 @@
+# =============================
+# Fichiers R générés
+# =============================
+.RData
+.Rhistory
+.Rapp.history
+.RDataTmp
+
+# =============================
+# Outputs R / RMarkdown
+# =============================
+*.Rout
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+*.Rproj
+
+# =============================
+# Données brutes / sensibles
+# =============================
+# Décommenter si les données sont confidentielles :
+# DataPerformances.csv
+
+# Garder le fichier de données s'il est public/anonymisé :
+!DataPerformances.csv
+
+# =============================
+# Rapport généré
+# =============================
+# Le rapport Word est inclus volontairement pour les recruteurs
+!rapport_performances_R.docx
+
+# Exports temporaires
+output/
+plots/
+figures/
+*.pdf
+*.png
+# Exception : garder les visuels dans assets/ si tu en crées
+!assets/
+
+# =============================
+# Fichiers système
+# =============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================
+# IDEs
+# =============================
+.vscode/
+.idea/
